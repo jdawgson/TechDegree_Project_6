@@ -117,6 +117,17 @@ button {
   background: #FFFFFF;
   border-radius: 5px;
   font-size: var(--font-size-medium);
+  cursor: pointer;
+}
+
+.btn {
+  cursor: pointer;
+  transition-delay: .05s;
+}
+
+.btn:hover {
+  background: rgb(134, 134, 134);
+  color: white;
 }
 
 /* Overlay */
